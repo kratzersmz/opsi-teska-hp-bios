@@ -1,0 +1,9 @@
+f 'once.opsiscript' 2786 882ed88770b4ba04d876cde45bd59c4e
+f 'delsub.opsiscript' 2726 a4cfe3e1af2f6650d31ee3ec0754697e
+d 'files' 0 
+f 'files/BCUsignature64.dll' 7168 b1d6e5453a8824fe301393890e973054
+f 'files/BIOS_Configuration_Utility_User_Guide.pdf' 260268 b67838fb64d73f782734acbc96c5c5c0
+f 'files/BiosConfigUtility64.exe' 2148360 bbdcec423b6fb97474d0e2ae9a6b7a80
+f 'files/BCUsignature32.dll' 7168 74de3cc073d2157de9847daa160c0412
+f 'check_msi_exitcode.opsiscript' 10336 8946f92e45882ff10bde9011eae69a09
+f '.gitignore' 15 a707dd604b79f6be24af8b0b28291115

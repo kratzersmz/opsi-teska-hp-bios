@@ -1,0 +1,49 @@
+[Package]
+version: 2
+depends: 
+
+[Product]
+type: localboot
+id: teska-hp-bios
+name: teska-hp-bios
+description: Sets Settings to Bios of HP
+advice: 
+version: 1.1
+priority: 0
+licenseRequired: False
+productClasses: 
+setupScript: 
+uninstallScript: 
+updateScript: 
+alwaysScript: 
+onceScript: once.opsiscript
+customScript: 
+userLoginScript: 
+
+[ProductProperty]
+type: unicode
+name: biospassword
+multivalue: False
+editable: True
+description: Bios Password, Length min. 8 chars!!!!
+values: ["test1234"]
+default: ["test1234"]
+
+[ProductProperty]
+type: unicode
+name: bioswol
+multivalue: False
+editable: True
+description: Enable WOL
+values: ["ja", "nein"]
+default: ["ja"]
+
+[ProductProperty]
+type: unicode
+name: biosfree
+multivalue: False
+editable: True
+description: Free Field for adding own stuff
+values: ["\"not realy implemented yet..\""]
+default: []
+
